@@ -30,7 +30,7 @@ public class Piano extends World
     {
         for(int i=0; i<12; i=i+1)
         {
-            Key key = new Key(whiteKeys[i], whiteNotes[i] + ".wav");
+            Key key = new Key(whiteKeys[i], whiteNotes[i] + ".wav", "white-key.png", "white-key-down.png");
             addObject( key , 54 + 63*i, 140);
         }
     }
