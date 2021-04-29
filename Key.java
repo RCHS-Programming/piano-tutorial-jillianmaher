@@ -17,6 +17,7 @@ public class Key extends Actor
         sound = soundFile;
         upImage = img1;
         downImage = img2;
+        setImage(upImage);
     }
 
     /**
